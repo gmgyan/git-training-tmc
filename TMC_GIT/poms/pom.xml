@@ -19,6 +19,8 @@
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/createre_0.1</module>
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/getids_0.1</module>
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/mainjob_0.1</module>
+    <module>jobs/process/generatelogs_0.1</module>
+    <module>jobs/process/getomc_0.1</module>
     <module>jobs/process/job1_0.1</module>
     <module>jobs/process/job2_0.1</module>
     <module>jobs/process/movie_rental_0.1</module>
