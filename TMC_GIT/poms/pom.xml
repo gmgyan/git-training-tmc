@@ -11,11 +11,11 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
-    <module>jobs/process/createre_0.1</module>
-    <module>jobs/process/getids_0.1</module>
+    <module>jobs/process/TMC_API/createre_0.1</module>
+    <module>jobs/process/TMC_API/getids_0.1</module>
+    <module>jobs/process/TMC_API/mainjob_0.1</module>
     <module>jobs/process/job1_0.1</module>
     <module>jobs/process/job2_0.1</module>
-    <module>jobs/process/mainjob_0.1</module>
     <module>jobs/process/movie_rental_0.1</module>
     <module>jobs/process/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/routes/consumefile_0.1</module>
