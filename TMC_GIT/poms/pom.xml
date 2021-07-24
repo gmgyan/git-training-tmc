@@ -11,6 +11,7 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/configtask_0.1</module>
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/createre_0.1</module>
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/getids_0.1</module>
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/mainjob_0.1</module>
