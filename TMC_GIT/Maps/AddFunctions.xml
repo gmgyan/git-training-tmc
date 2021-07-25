@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/PO_input.xml' outStruct='Structures/PO_NestedLoop.xml' inputRep='177' outputRep='177' nextMap='' inputStructUserName='PO_input' outputStructUserName='PO_NestedLoop' V1='4' name='Nested_Looping' incarnation='845'>
+<root t='190' id='1' V190='11' inStruct='Structures/PO_input.xml' outStruct='Structures/PO_NestedLoop.xml' inputRep='177' outputRep='177' nextMap='' inputStructUserName='PO_input' outputStructUserName='PO_NestedLoop' V1='4' name='Nested_Looping' incarnation='853'>
   <inputMapElem t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='47' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PO_input'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='41' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PO'>
@@ -86,7 +86,7 @@
       <loop>SimpleLoop(in$/PO_input/PO,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/PO_input/PO/Delivery,{Filter},{Sort Keys},{Contexts})))</loop>
       <child t='200' id='32' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_validate='true' modifiedFromParent_value='true' V1='4' name='Num'>
         <mapNode t='190' idref='1'/>
-        <value>IfThenElse(Equal(in$/PO_input/PO/Urgency,Constant([value="ATF",dataType="2"],)),Concat(in$/PO_input/PO/Number,Constant([value="Amended",dataType="2"],)),in$/PO_input/PO/Number)</value>
+        <value>IfThenElse(Equal(in$/PO_input/PO/Urgency,Constant([value="ATF",dataType="2"],)),Concat(in$/PO_input/PO/Number,Constant([value=" Amended",dataType="2"],)),in$/PO_input/PO/Number)</value>
       </child>
       <child t='200' id='33' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Name'>
         <mapNode t='190' idref='1'/>
@@ -120,7 +120,7 @@
   </outputRepRuntime>
   <valueSets></valueSets>
   <child t='165' id='2' V1='4' name='Document Bindings'>
-    <child t='166' id='42' V166='5' docType='1' docReposPath='/LOCAL_PROJECT/Sample Data/PO_input/PO_input' V1='4' name='in$/PO_input'>
+    <child t='166' id='42' V166='5' docType='1' docReposPath='/TMC_GIT/Sample Data/PO_input/PO_input' V1='4' name='in$/PO_input'>
       <elemNode t='200' idref='4'/>
     </child>
     <child t='166' id='43' V166='5' docType='2' docReposPath='/LOCAL_PROJECT/Sample Data/PO_NestedLoop/PO_NestedLoop' V1='4' name='out$/PO_NestedLoop'>
