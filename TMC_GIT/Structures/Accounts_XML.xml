@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x17adc6c6ca4' V1='4' name='Accounts_XML' incarnation='5'>
+<root t='150' id='1' V150='13' creationTimestamp='0x17adc6c6ca4' V1='4' name='Accounts_XML' incarnation='11'>
   <rootElem t='167' id='2' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='Account'>
     <structNode t='150' idref='1'/>
     <child t='167' id='3' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='CompanyName'>
@@ -40,7 +40,7 @@
       <child t='167' id='15' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='email'>
         <structNode t='150' idref='1'/>
       </child>
-      <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='22' decimalPositions='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='phone'>
+      <child t='167' id='16' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' decimalPositions='12' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' namespaceIndex='1' V281='13' V1='4' name='phone'>
         <structNode t='150' idref='1'/>
       </child>
     </child>
@@ -56,5 +56,8 @@
     <child t='172' idref='17'/>
   </child>
   <child t='165' id='21' V1='4' name='Document Bindings'>
+    <child t='166' id='22' V166='5' docType='1' docReposPath='/TMC_GIT/Sample Data/Accounts_XML/init_account' V1='4' name='/Account'>
+      <elemNode t='167' idref='2'/>
+    </child>
   </child>
 </root>
