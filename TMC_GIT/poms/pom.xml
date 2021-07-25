@@ -23,6 +23,7 @@
     <module>jobs/process/Job_execution_logs_in_TMC/getomc_0.1</module>
     <module>jobs/process/job1_0.1</module>
     <module>jobs/process/job2_0.1</module>
+    <module>jobs/process/json2flatfile_0.1</module>
     <module>jobs/process/movie_rental_0.1</module>
     <module>jobs/process/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/routes/consumefile_0.1</module>
