@@ -21,10 +21,10 @@
     <module>jobs/process/Create_Remote_Engine_using_TMC_API_call/mainjob_0.1</module>
     <module>jobs/process/Job_execution_logs_in_TMC/generatelogs_0.1</module>
     <module>jobs/process/Job_execution_logs_in_TMC/getomc_0.1</module>
+    <module>jobs/process/TDM_Jobs/json2flatfile_0.1</module>
+    <module>jobs/process/TDM_Jobs/json2json_0.1</module>
     <module>jobs/process/job1_0.1</module>
     <module>jobs/process/job2_0.1</module>
-    <module>jobs/process/json2flatfile_0.1</module>
-    <module>jobs/process/json2json_0.1</module>
     <module>jobs/process/movie_rental_0.1</module>
     <module>jobs/process/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/routes/consumefile_0.1</module>
