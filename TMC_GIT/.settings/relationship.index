@@ -24,4 +24,15 @@
     "version" : "Latest",
     "type" : "context"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_btN5EO0OEeuIE6wZ9xz8tQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_X3WlUO0PEeuIE6wZ9xz8tQ",
+    "version" : "Latest",
+    "type" : "mapper"
+  } ]
 } ]
