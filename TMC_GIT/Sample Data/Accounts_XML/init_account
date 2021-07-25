@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Account xmlns="http://demo.talend.org/mapping/account/">
+	<CompanyName>Bowl-O-Rama</CompanyName>
+	<Industry>Service</Industry>
+	<Address1>123 Hemmingway Dr.</Address1>
+	<Address2>P.O. Box 42</Address2>
+	<City>Springfield</City>
+	<State_Province>IL</State_Province>
+	<Country_ISO3>USA</Country_ISO3>
+	<PostalCode>60099</PostalCode>
+	<Phone>+1.847.555.1234</Phone>
+	<Website>www.bowl-o-rama.com</Website>
+	<contact>
+		<name>Bob Barker</name>
+		<email>bbarker@yahoo.com</email>
+		<phone>+1.847.746.6466</phone>
+	</contact>
+	<contact>
+		<name>Christophe Antoine</name>
+		<email>cantoine@gmail.com</email>
+		<phone>+1.847.746.5164</phone>
+	</contact>
+	<contact>
+		<name>Mark Balkenende</name>
+		<email>mbalk@balkenenderoofing.com</email>
+		<phone>+1.262.484.8888</phone>
+	</contact>
+</Account>
