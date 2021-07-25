@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='150' id='1' V150='13' creationTimestamp='0x17adc6e0c98' V1='4' name='Contacts_JSON' incarnation='21'>
+<root t='150' id='1' V150='13' creationTimestamp='0x17adc6e0c98' V1='4' name='Contacts_JSON' incarnation='22'>
   <rootElem t='167' id='6' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Root'>
     <structNode t='150' idref='1'/>
     <child t='167' id='7' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Accounts_Contacts'>
@@ -15,7 +15,7 @@
         <child t='167' id='11' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Email'>
           <structNode t='150' idref='1'/>
         </child>
-        <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='22' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Phone'>
+        <child t='167' id='12' V167='21' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='Phone'>
           <structNode t='150' idref='1'/>
         </child>
       </child>
